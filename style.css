@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.header {
+    display: flex;
+    background: #FFF8F3;
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 808px;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.banner {}
+
+.banner-title {
+    width: 299px;
+    height: 189px;
+    text-align: end;
+    margin-left: 907px;
+    margin-top: 316px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    line-height: 56px;
+
+}
+
+.description {
+    width: 394px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 814px;
+    margin-top: 5px;
+    text-align: end;
+    color: #FFFFFF;
+    line-height: 20px;
+    
+
+
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    margin-left: 1076px;
+    margin-bottom: 140px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+
+
+}
+
+/* failures year */
+.failures {
+    display: flex;
+    width: 1072px;
+    height: 723.3px;
+}
+
+.total {
+    text-align: left;
+    justify-content: center;
+    width: 416px;
+    height: 400px;
+    margin-top: 245px;
+    margin-left: 50px;
+}
+
+.title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 77px;
+    margin-top: 12px;
+    color: #151414;
+    margin-bottom: 20px;
+
+}
+
+.total p {
+    width: 416px;
+    height: 24px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-top: 8px;
+
+}
+
+.failures-description {
+    width: 416px;
+    height: 104px;
+    color: #444343;
+    margin-left: 80px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.total p i {
+    margin-right: 8px;
+
+}
+
+.pic {
+    width: 569px;
+    height: 723.3px;
+    margin-left: 120px;
+}
+
+/* My Plans */
+
+.plan {
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-bottom: 250px;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.manu {
+    width: 300px;
+    height: 50.26px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.manu-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    margin-top: 8px;
+
+}
+
+.manu-desciption {
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* gradient */
+
+.gradient {
+
+    background-image: url(./images/watch.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.gradient-bg {
+    background-image: url(./images/gradient1.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+
+
+}
+
+.gradient-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 94px;
+    margin-left: 60px;
+    margin-top: 80.96px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.btn-primary2 {
+    color: #005FAC;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 15px 30px;
+
+}
+
+/* use to footer tag  */
+
+.footer {
+    display: flex;  
+    background: #151414;
+    width: 1366px;
+    height: 477px;
+}
+
+.col-1 {
+
+    margin: 80px 80px;
+    margin-left: 230px;
+}
+
+.col-1 h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+.col-1 p {
+    text-align: left;
+    width: 485px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+
+}
+
+.col-1 p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+   
+}
+
+.col-1 div {
+    margin-bottom: 230px;
+    padding-right: 20px;
+    
+}
+
+.col-1 div img {
+    margin-right: 10px;
+}
+
+.col-2 {
+    margin: 80px 80px;
+    margin-left: 200px;
+
+}
+
+.col-2 h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.mail {
+    font-size: 18px;
+    width: 225px;
+    height: 44px;
+    margin-bottom: 16px;
+    margin-top: 31px;
+    color: #FFFFFF;
+}
+
+.btn {
+    padding: 20;
+    width: 170.11px;
+    height: 64px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    padding: 20px 36px;
+}
+
